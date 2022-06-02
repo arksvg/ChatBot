@@ -1,0 +1,39 @@
+body {
+    margin: 0 auto;
+    /* background-color: rgb(238, 227, 227); */
+    height: 100vh;
+}
+
+.hero {
+    background: url("../images/hero.jpg");
+    /* filter: blur(3px); */
+    height: 42vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.color-overlay {
+    height: 42vh;
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.bg-text {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.bg-heading {
+    font-weight: 700;
+    font-size: 3rem;
+}
